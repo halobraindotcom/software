@@ -1,0 +1,13 @@
+
+
+
+node -v
+
+npm -v
+
+
+https://angular.io/guide/setup-local
+
+npm install -g @angular/cli12.2.0
+
+

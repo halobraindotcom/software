@@ -17,14 +17,15 @@ node -v
 
 npm -v
 
-
+### https://angular.io/guide/setup-local
+### https://www.geeksforgeeks.org/angular-cli-angular-project-setup/
+### https://angular.io/cli
 ### Install the Angular CLI
 npm install -g @angular/cli
 ### On Windows client computers, the execution of PowerShell scripts is disabled by default.
 ### To allow the execution of PowerShell scripts, which is needed for npm global binaries, you must set the following execution policy:
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-https://angular.io/guide/setup-local
 
 sudo npm install -g @angular/cli12.2.0
 npm install -g @angular/cli@12.2.0
@@ -77,6 +78,8 @@ npx @angular/cli@12 update @angular/core@12 @angular/cli@12
 
 
 ### Migrating from lower version 7 to upper version 12 in angular - We need to upgrade step by step one version( like 7 to 8, then 8 to 9 etc...)
+### https://www.youtube.com/watch?v=MyEjNIIf608&t=150s
+### https://update.angular.io/?v=7.2-12.0
 
 ng update @angular/cli@8
 ng update @angular/cli@9.0.0
@@ -88,4 +91,6 @@ ng update @angular/cli@12.0.0
 
 
 
-
+windows
+C:\Users\Lenovo\AppData\Roaming\npm\
+C:\\Program Files\\nodejs\\node.exe

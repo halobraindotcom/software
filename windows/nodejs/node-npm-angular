@@ -1,9 +1,16 @@
 
-
-
+Node.js® is an open-source, cross-platform JavaScript runtime environment.
 https://nodejs.org/en/
+https://nodejs.org/en/download/
+01 Feb 17 Node v4.7.3 (LTS)
+28 Feb 19 Node v6.17.0 (LTS)
+16 Apr 19 Node v8.16.0 (LTS)
+06 Apr 21 Node v10.24.1 (LTS)
+18 Mar 22 Node v12.22.11 (LTS)
+Node v14.20.0 (LTS)
+Node v16.19.0 (LTS)
 
-18.12.1 LTS
+Latest LTS Version: 18.12.1 (includes npm 8.19.2)
 https://nodejs.org/dist/v18.12.1/node-v-x64.msi
 
 node -v
@@ -11,10 +18,17 @@ node -v
 npm -v
 
 
+### Install the Angular CLI
+npm install -g @angular/cli
+### On Windows client computers, the execution of PowerShell scripts is disabled by default.
+### To allow the execution of PowerShell scripts, which is needed for npm global binaries, you must set the following execution policy:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
 https://angular.io/guide/setup-local
 
-npm install -g @angular/cli12.2.0
+sudo npm install -g @angular/cli12.2.0
 npm install -g @angular/cli@12.2.0
+
 
 
 npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
@@ -53,4 +67,25 @@ Package                      Version
 @angular-devkit/core         12.2.0 (cli-only)
 @angular-devkit/schematics   12.2.0 (cli-only)
 @schematics/angular          12.2.0 (cli-only)
+
+
+
+### To upgrade the and fix the angular error
+npm install -g eslint
+npm i --legacy -peer -deps
+npx @angular/cli@12 update @angular/core@12 @angular/cli@12
+
+
+### Migrating from lower version 7 to upper version 12 in angular - We need to upgrade step by step one version( like 7 to 8, then 8 to 9 etc...)
+
+ng update @angular/cli@8
+ng update @angular/cli@9.0.0
+ng update @angular/cli@10.0.0
+ng update @angular/cli@11.0.0
+ng update @angular/cli@12.0.0
+
+
+
+
+
 

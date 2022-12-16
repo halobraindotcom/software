@@ -14,5 +14,43 @@ npm -v
 https://angular.io/guide/setup-local
 
 npm install -g @angular/cli12.2.0
+npm install -g @angular/cli@12.2.0
 
+
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+C:\Users\Lenovo\AppData\Roaming\npm\ng -> C:\Users\Lenovo\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+> @angular/cli@12.2.0 postinstall C:\Users\Lenovo\AppData\Roaming\npm\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+
+
+ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 12.2.0
+Node: 14.17.5
+Package Manager: npm 6.14.14
+OS: win32 x64
+
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1202.0 (cli-only)
+@angular-devkit/core         12.2.0 (cli-only)
+@angular-devkit/schematics   12.2.0 (cli-only)
+@schematics/angular          12.2.0 (cli-only)
 

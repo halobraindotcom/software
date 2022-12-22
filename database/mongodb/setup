@@ -12,3 +12,6 @@ Starting with Mongo 4.4 the database tools are not part of the MongoDB Server pa
 
 You have to download MongoDB Database Tools separately from https://www.mongodb.com/try/download/database-tools
 
+### D:\abc\data-dump\database_name\*json
+### D:\abc\data-dump\database_name\*bson
+mongorestore --db database_name --verbose D:\abc\data-dump\database_name

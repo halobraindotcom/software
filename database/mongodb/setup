@@ -6,3 +6,9 @@ https://www.mongodb.com/try/download/community
 ### UI screen for database
 https://www.mongodb.com/try/download/compass
 
+
+
+Starting with Mongo 4.4 the database tools are not part of the MongoDB Server package anymore.
+
+You have to download MongoDB Database Tools separately from https://www.mongodb.com/try/download/database-tools
+

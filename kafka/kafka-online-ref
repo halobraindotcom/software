@@ -5,3 +5,27 @@ https://assets.confluent.io/m/7a91acf41502a75e/original/20180328-EB-Confluent_De
 
 https://developer.confluent.io/learn-kafka/architecture/broker/
 
+
+
+
+
+
+### Testing Kafka Streams
+https://kafka.apache.org/21/documentation/streams/developer-guide/testing.html
+
+https://developer.confluent.io/learn/testing-kafka/
+
+https://docs.confluent.io/cloud/current/client-apps/optimizing/index.html#benchmarking
+
+
+https://docs.confluent.io/cloud/current/client-apps/testing.html#test-ccloud-clients
+
+
+https://developer.confluent.io/tutorials/create-stateful-aggregation-minmax/kstreams.html
+
+
+https://docs.confluent.io/cloud/current/client-apps/optimizing/index.html#optimize-and-tune-ccloud-clients
+
+https://www.confluent.io/blog/apache-kafka-supports-200k-partitions-per-cluster/
+
+https://github.com/apache/kafka/blob/trunk/TROGDOR.md
